@@ -49,6 +49,8 @@ function wrap(tuple) {
   return x;
 }
 
+// TODO maybe add https://github.com/curran/model-contrib/pull/1/files#diff-c676f967bad3b67393d5c754e8b0854fR11
+
 prototype.batchTransform = function(input, data) {
   log.debug(input, ['wordcloud']);
 
